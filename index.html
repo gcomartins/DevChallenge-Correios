@@ -1,1 +1,39 @@
-!
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevChallenge| Correios</title>
+    <script src="funcoes.js"></script>
+    <link rel="shortcut icon" href="https://avaazdo.s3.amazonaws.com/original_5cc236b4bb784.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+        </div>
+        <form method="get" action=".">
+            <label>Cep:<br>
+            <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisarCep(this.value);" />
+            </label><br />
+            <label>Rua:<br>
+                <input name="rua" type="text" id="rua" size="60" disabled/>
+            </label><br />
+            <label>Bairro:<br>
+                <input name="bairro" type="text" id="bairro" size="40" disabled />
+            </label><br />
+            <label>Cidade:<br>
+                <input name="cidade" type="text" id="cidade" size="40" disabled />
+            </label><br />
+            <label>Estado:<br>
+                <input name="uf" type="text" id="uf" size="2" disabled />
+            </label><br />
+            <label>IBGE:<br>
+                <input name="ibge" type="text" id="ibge" size="8" disabled />
+            </label><br />
+        </form>
+
+    </div>
+</body>
+</html>
